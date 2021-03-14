@@ -1,0 +1,25 @@
+{
+  "name": "ffra-chatbot",
+  "version": "1.0.0",
+  "description": "This is the node project for the FFRA chatbot website",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mrfn323/Chatbot-Website.git"
+  },
+  "author": "Syed Fahad Nadeem and Kevin Tapia",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mrfn323/Chatbot-Website/issues"
+  },
+  "homepage": "https://github.com/mrfn323/Chatbot-Website#readme",
+  "dependencies": {
+    "botui": "^0.3.9",
+    "express": "^4.17.1",
+    "pug": "^2.0.4"
+  }
+}

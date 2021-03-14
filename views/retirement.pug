@@ -1,0 +1,26 @@
+//- Extend and use layout.pug
+extends layout 
+
+//- Insert block content within block content tag in layout.pug
+block content
+    .container.vw-100.min-vh-100.p-0.m-0.mw-100
+        h4.pt-5.text-center.font-weight-bold You don't have to tackle
+        h4.mt-1.text-center.font-weight-bold retirement alone. We can help you
+        h4.mt-1.text-center.font-weight-bold along the way.
+        div.d-flex.justify-content-center
+            btn.btn.btn-primary.p-2.mt-5.mb-4(id="learn-more" data-toggle="collapse" data-target="#learn-content") Learn More
+        div.collapse(id="learn-content") 
+            div.card.card-body.p-4.m-4 
+                h2 Create a retirement vision and potential budget.
+                p.mt-2 A more precise approach to estimating for then is to start 
+                    | with what you spend now. Make a list of your monthly expenses: 
+                    | rent or mortgage (including property taxes), utilities, groceries, 
+                    | health insurance and entertainment. Don’t forget miscellaneous 
+                    | expenses like your gym membership, haircuts and vet bills.
+                p If you have a spouse or partner, it’s important to plan together for your retirement, including expenses. 
+                p Review questions like
+                ul 
+                    li What health and medical considerations need to be considered into your decisions?
+                    li Where do you want to live? Geographic location, proximity to family, climate 
+                        | and cost of living should all be considerations, as well as ideas about social life, friends, and community.
+                p Revisit your “shared vision” once a year so it’s always in sync with your current situation.

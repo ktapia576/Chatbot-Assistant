@@ -1,0 +1,22 @@
+//- Extend and use layout.pug
+extends layout 
+
+//- Insert block content within block content tag in layout.pug
+block content
+    .container.vw-100.min-vh-100.p-0.m-0.mw-100
+        h4.pt-5.text-center.font-weight-bold Saving enough can be hard to do.
+        h4.mt-1.text-center.font-weight-bold We'll help you set goals you can
+        h4.mt-1.text-center.font-weight-bold stick to.
+        div.d-flex.justify-content-center
+            btn.btn.btn-primary.p-2.mt-5.mb-4(id="learn-more" data-toggle="collapse" data-target="#learn-content") Learn More
+        div.collapse(id="learn-content") 
+            div.card.card-body.p-4.m-4 
+                h2 50/30/20 rule
+                p.mt-2 Important budgeting technique is the 50/30/20 rule. It involves dividing your monthly income into three “buckets”:
+                ul 
+                    li 50% (or less) goes to necessities such as housing, student loans and utilities. These are expenses you have to pay every month.
+                    li 30% (or less) goes to nice-to-haves, such as entertainment, hobbies and travel.
+                    li 20% (or more, if possible) goes toward savings and paying down debt.
+                p The 50/30/20 rule can be adjusted based on your short- and long-term goals, but be careful about confusing 
+                    | “nice-to-haves” for “necessities.” Several dinners out each week and unlimited data plans may be nice 
+                    | to have, but they aren’t essential.

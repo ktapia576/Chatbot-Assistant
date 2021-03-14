@@ -1,0 +1,21 @@
+html
+    head
+        title #{title}
+        meta(http-equiv="Content-Type", content="text/html;charset=UTF-8")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        link(rel="stylesheet", href="css/botui.min.css")
+        link(rel="stylesheet", href="css/chat.css")
+        link(rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css")
+        script(src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js")
+        script(src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js")
+        script(src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js")
+        //- link(rel="stylesheet", href="css/botui-theme-default.css") //-Default Theme
+    body
+
+        .container
+            div(class="chatbot-container" id="hello-world")
+                bot-ui
+        //- Loading Scripts after so that it can detect tags 
+        script(src="scripts/lib/vue.min.js")
+        script(src="scripts/lib/botui.min.js")
+        script(src="scripts/chat1.js")

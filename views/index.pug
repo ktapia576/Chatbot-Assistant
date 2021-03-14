@@ -1,0 +1,12 @@
+//- Extend and use layout.pug
+extends layout 
+
+//- Insert block content within block content tag in layout.pug
+block content
+    .container.vw-100.min-vh-100.p-0.m-0.mw-100
+        h4.mt-5.text-center.font-weight-bold You'll have financial questions long before retirement.
+        h4.mt-1.mb-5.text-center.font-weight-bold We can help you answer them.
+        h4.mt-5.text-center.font-weight-bold Where do you want to start?
+        div.d-flex.justify-content-center
+            a.btn.btn-outline-warning.p-3.rounded-circle(href="/plan-retirement" id="planRetirementBtn") Plan retirement
+            a.btn.btn-outline-primary.p-3.rounded-circle(href="/save-budget" id="budgetBtn") Save and Budgeting

@@ -1,0 +1,61 @@
+/* // Extra small devices (portrait phones, less than 576px)
+// No media query since this is the default in Bootstrap */
+#planRetirementBtn {
+  margin: .25rem;
+}
+#budgetBtn {
+  margin: .25rem;
+}
+
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) { 
+  h4 {
+    font-size: 1.5rem;
+  }
+  #planRetirementBtn {
+    margin: 1.5rem;
+  }
+  #budgetBtn {
+    margin: 1.5rem;
+  }
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+  h4 {
+    font-size: 1.75rem;
+  }
+  #planRetirementBtn {
+    margin: 2.5rem;
+  }
+  #budgetBtn {
+    margin: 2.5rem;
+  }
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+  h4 {
+    font-size: 2rem;
+  }
+  #planRetirementBtn {
+    margin: 3rem;
+  }
+  #budgetBtn {
+    margin: 3rem;
+  }
+}
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+  h4 {
+    font-size: 2.5rem;
+  }
+  #planRetirementBtn {
+    margin: 3rem;
+  }
+  #budgetBtn {
+    margin: 3rem;
+  }
+}
